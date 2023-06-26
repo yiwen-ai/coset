@@ -778,6 +778,10 @@ iana_registry! {
         Cnf: 8,
         /// Scope of an access token ("scope": bstr/tstr)
         Scope: 9,
+        /// Nonce ("nonce": bstr)
+        Nonce: 10,
+        /// Context information of an access token ("ctx": bstr), unassigned.
+        Ctx: 11,
         /// The ACE profile a token is supposed to be used with ("ace_profile": int)
         AceProfile: 38,
         /// The client-nonce sent to the AS by the RS via the client ("cnonce": bstr)
